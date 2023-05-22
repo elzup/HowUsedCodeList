@@ -1,6 +1,12 @@
-# How used
+# How used list
 
-## Math functions
+Analyzing code usage through GitHub code search.
+
+https://docs.github.com/en/rest/search?apiVersion=2022-11-28#search-code
+
+### JavaScript
+
+## Math fields
 
 dumped at 2023/5/22
 
@@ -50,7 +56,7 @@ dumped at 2023/5/22
 | Math.SQRT1_2 | 2016    |
 | Math.LOG2E   | 1632    |
 
-## Object fields
+### Object fields
 
 dumped at 2023/5/22
 
@@ -81,3 +87,40 @@ dumped at 2023/5/22
 | Object.isExtensible              | 6720   |
 | Object.preventExtensions         | 6208   |
 | Object.isSealed                  | 4136   |
+
+### Number fields
+
+dumped at 2023/5/22
+
+| code                     | count |
+| ------------------------ | ----- |
+| Number.isInteger         | 46080 |
+| Number.MAX_VALUE         | 38912 |
+| Number.isNaN             | 33408 |
+| Number.parseInt          | 32768 |
+| Number.MAX_SAFE_INTEGER  | 30720 |
+| Number.length            | 25088 |
+| Number.POSITIVE_INFINITY | 24320 |
+| Number.prototype         | 19392 |
+| Number.isFinite          | 19136 |
+| Number.NEGATIVE_INFINITY | 12768 |
+| Number.parseFloat        | 11104 |
+| Number.MIN_VALUE         | 8704  |
+| Number.EPSILON           | 7328  |
+| Number.MIN_SAFE_INTEGER  | 6976  |
+| Number.NaN               | 6416  |
+| Number.isSafeInteger     | 5856  |
+| Number.name              | 4176  |
+
+### String fields
+
+dumped at 2023/5/22
+
+| code                 | count  |
+| -------------------- | ------ |
+| String.fromCharCode  | 217088 |
+| String.length        | 153728 |
+| String.prototype     | 101632 |
+| String.fromCodePoint | 19776  |
+| String.raw           | 9312   |
+| String.name          | 7008   |
