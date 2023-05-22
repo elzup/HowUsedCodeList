@@ -34,13 +34,27 @@ async function makeCountsData(
   console.log(rows.map((c) => `${c.code},${c.count}`).join('\n'))
   console.log(JSON.stringify(rows, null, 2))
   writeFileSync(`./dist/js-${objName}.json`, JSON.stringify(rows, null, 2))
+  writeFileSync(`./dist/js-${objName}.md`, rowsToMarkdown(rows))
+}
+const runningAt = new Date().toLocaleString().split(' ')[0]
+
+function rowsToMarkdown(rows: Row[]) {
+  return [
+    `dumped at ${runningAt}
+| code     | count |
+| -------- | ----- |
+`,
+    ...rows.map((row) => `| ${row.code} | ${row.count} |`),
+  ].join('\n')
 }
 
 const isUpperCase = (str: string) => str === str.toUpperCase()
+const toTag = (method: string, count: number) =>
+  isUpperCase(method) ? 'constant' : 'function'
+
 async function main() {
   const octokit = new Octokit({ auth: process.env.GITHUB_PERSONAL_TOKEN })
-  await makeCountsData(octokit, Math, 'Math', (field) =>
-    isUpperCase(field) ? 'constant' : 'function'
-  )
+  // await makeCountsData(octokit, Math, 'Math', toTag)
+  await makeCountsData(octokit, Object, 'Object', toTag)
 }
 main()
