@@ -4,9 +4,9 @@ Analyzing code usage through GitHub code search.
 
 https://docs.github.com/en/rest/search?apiVersion=2022-11-28#search-code
 
-### JavaScript
+## JavaScript
 
-## Math fields
+### Math fields
 
 dumped at 2023/5/22
 
