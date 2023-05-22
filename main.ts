@@ -41,9 +41,10 @@ const runningAt = new Date().toLocaleString().split(' ')[0]
 function rowsToMarkdown(rows: Row[]) {
   return [
     `dumped at ${runningAt}
+
 | code     | count |
 | -------- | ----- |
-`,
+`.trim(),
     ...rows.map((row) => `| ${row.code} | ${row.count} |`),
   ].join('\n')
 }
@@ -55,6 +56,8 @@ const toTag = (method: string, count: number) =>
 async function main() {
   const octokit = new Octokit({ auth: process.env.GITHUB_PERSONAL_TOKEN })
   // await makeCountsData(octokit, Math, 'Math', toTag)
-  await makeCountsData(octokit, Object, 'Object', toTag)
+  // await makeCountsData(octokit, Object, 'Object', toTag)
+  await makeCountsData(octokit, Number, 'Number', toTag)
+  await makeCountsData(octokit, String, 'String', toTag)
 }
 main()
