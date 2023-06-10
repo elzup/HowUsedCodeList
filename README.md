@@ -10,119 +10,119 @@ query `{code} (language:JavaScript OR language: TypeScript)`
 
 ### Math fields
 
-dumped at 2023/5/22
+dumped at 2023/6/10
 
-| code         | count   |
-| ------------ | ------- |
-| Math.floor   | 1050624 |
-| Math.max     | 1024000 |
-| Math.PI      | 731136  |
-| Math.random  | 721920  |
-| Math.min     | 665600  |
-| Math.sqrt    | 563200  |
-| Math.round   | 550912  |
-| Math.abs     | 542208  |
-| Math.ceil    | 452608  |
-| Math.cos     | 357376  |
-| Math.pow     | 292864  |
-| Math.sin     | 287744  |
-| Math.log     | 177664  |
-| Math.E       | 129280  |
-| Math.atan2   | 117248  |
-| Math.exp     | 114176  |
-| Math.atan    | 96000   |
-| Math.tan     | 65792   |
-| Math.acos    | 45568   |
-| Math.log10   | 39808   |
-| Math.asin    | 34432   |
-| Math.sign    | 31232   |
-| Math.trunc   | 27264   |
-| Math.log2    | 21760   |
-| Math.hypot   | 21312   |
-| Math.tanh    | 14848   |
-| Math.sinh    | 12448   |
-| Math.cosh    | 10368   |
-| Math.cbrt    | 6848    |
-| Math.LN2     | 6768    |
-| Math.log1p   | 5280    |
-| Math.expm1   | 4832    |
-| Math.imul    | 4768    |
-| Math.LN10    | 4336    |
-| Math.asinh   | 4160    |
-| Math.fround  | 4144    |
-| Math.atanh   | 3872    |
-| Math.acosh   | 3760    |
-| Math.SQRT2   | 3244    |
-| Math.clz32   | 2896    |
-| Math.LOG10E  | 2096    |
-| Math.SQRT1_2 | 2016    |
-| Math.LOG2E   | 1632    |
+| code         | count  |
+| ------------ | ------ |
+| Math.floor   | 681728 |
+| Math.max     | 539392 |
+| Math.round   | 419584 |
+| Math.min     | 405888 |
+| Math.random  | 278016 |
+| Math.abs     | 268672 |
+| Math.ceil    | 246272 |
+| Math.sqrt    | 201968 |
+| Math.PI      | 196008 |
+| Math.pow     | 161472 |
+| Math.cos     | 116768 |
+| Math.sin     | 95544  |
+| Math.log     | 55968  |
+| Math.atan    | 50716  |
+| Math.E       | 42464  |
+| Math.atan2   | 32608  |
+| Math.tan     | 19712  |
+| Math.exp     | 17624  |
+| Math.sign    | 11368  |
+| Math.acos    | 10836  |
+| Math.asin    | 10280  |
+| Math.trunc   | 10040  |
+| Math.log10   | 7472   |
+| Math.log2    | 7432   |
+| Math.LN2     | 6488   |
+| Math.hypot   | 5288   |
+| Math.LN10    | 3824   |
+| Math.imul    | 3664   |
+| Math.fround  | 2882   |
+| Math.sinh    | 2788   |
+| Math.cbrt    | 2543   |
+| Math.cosh    | 2328   |
+| Math.tanh    | 2160   |
+| Math.clz32   | 2136   |
+| Math.log1p   | 2098   |
+| Math.LOG2E   | 2044   |
+| Math.SQRT2   | 2026   |
+| Math.asinh   | 2023   |
+| Math.LOG10E  | 1950   |
+| Math.expm1   | 1941   |
+| Math.atanh   | 1817   |
+| Math.SQRT1_2 | 1784   |
+| Math.acosh   | 1753   |
 
 ### Object fields
 
-dumped at 2023/5/22
+dumped at 2023/6/10
 
 | code                             | count  |
 | -------------------------------- | ------ |
-| Object.keys                      | 802816 |
-| Object.assign                    | 546816 |
-| Object.defineProperty            | 289024 |
-| Object.is                        | 278528 |
-| Object.entries                   | 217088 |
-| Object.values                    | 204288 |
-| Object.create                    | 181760 |
-| Object.prototype                 | 176640 |
-| Object.name                      | 84480  |
-| Object.freeze                    | 83456  |
-| Object.getPrototypeOf            | 52224  |
-| Object.defineProperties          | 42112  |
-| Object.setPrototypeOf            | 40704  |
-| Object.getOwnPropertyNames       | 36608  |
-| Object.fromEntries               | 31104  |
-| Object.hasOwn                    | 23520  |
-| Object.length                    | 16672  |
-| Object.getOwnPropertyDescriptor  | 16400  |
-| Object.getOwnPropertySymbols     | 15552  |
-| Object.seal                      | 13280  |
-| Object.isFrozen                  | 8560   |
-| Object.getOwnPropertyDescriptors | 7904   |
-| Object.isExtensible              | 6720   |
-| Object.preventExtensions         | 6208   |
-| Object.isSealed                  | 4136   |
+| Object.keys                      | 716800 |
+| Object.assign                    | 590336 |
+| Object.defineProperty            | 271360 |
+| Object.is                        | 191168 |
+| Object.create                    | 178304 |
+| Object.entries                   | 162048 |
+| Object.values                    | 158016 |
+| Object.prototype                 | 148864 |
+| Object.freeze                    | 86912  |
+| Object.getPrototypeOf            | 43776  |
+| Object.defineProperties          | 36920  |
+| Object.getOwnPropertyNames       | 30816  |
+| Object.name                      | 25184  |
+| Object.hasOwn                    | 24024  |
+| Object.setPrototypeOf            | 22144  |
+| Object.fromEntries               | 20824  |
+| Object.length                    | 10760  |
+| Object.getOwnPropertySymbols     | 10364  |
+| Object.getOwnPropertyDescriptor  | 10176  |
+| Object.seal                      | 7728   |
+| Object.getOwnPropertyDescriptors | 5604   |
+| Object.isFrozen                  | 5464   |
+| Object.isExtensible              | 4464   |
+| Object.preventExtensions         | 4328   |
+| Object.isSealed                  | 1957   |
 
 ### Number fields
 
-dumped at 2023/5/22
+dumped at 2023/6/10
 
 | code                     | count |
 | ------------------------ | ----- |
-| Number.isInteger         | 46080 |
-| Number.MAX_VALUE         | 38912 |
-| Number.isNaN             | 33408 |
-| Number.parseInt          | 32768 |
-| Number.MAX_SAFE_INTEGER  | 30720 |
-| Number.length            | 25088 |
-| Number.POSITIVE_INFINITY | 24320 |
-| Number.prototype         | 19392 |
-| Number.isFinite          | 19136 |
-| Number.NEGATIVE_INFINITY | 12768 |
-| Number.parseFloat        | 11104 |
-| Number.MIN_VALUE         | 8704  |
-| Number.EPSILON           | 7328  |
-| Number.MIN_SAFE_INTEGER  | 6976  |
-| Number.NaN               | 6416  |
-| Number.isSafeInteger     | 5856  |
-| Number.name              | 4176  |
+| Number.isInteger         | 41360 |
+| Number.MAX_VALUE         | 31104 |
+| Number.isNaN             | 25744 |
+| Number.MAX_SAFE_INTEGER  | 23840 |
+| Number.parseInt          | 19600 |
+| Number.POSITIVE_INFINITY | 14432 |
+| Number.isFinite          | 13384 |
+| Number.prototype         | 10736 |
+| Number.length            | 9408  |
+| Number.NEGATIVE_INFINITY | 8936  |
+| Number.parseFloat        | 6304  |
+| Number.MIN_SAFE_INTEGER  | 6096  |
+| Number.MIN_VALUE         | 5880  |
+| Number.NaN               | 5116  |
+| Number.EPSILON           | 4684  |
+| Number.isSafeInteger     | 3552  |
+| Number.name              | 1232  |
 
 ### String fields
 
-dumped at 2023/5/22
+dumped at 2023/6/10
 
 | code                 | count  |
 | -------------------- | ------ |
-| String.fromCharCode  | 217088 |
-| String.length        | 153728 |
-| String.prototype     | 101632 |
-| String.fromCodePoint | 19776  |
-| String.raw           | 9312   |
-| String.name          | 7008   |
+| String.fromCharCode  | 133216 |
+| String.length        | 75840  |
+| String.prototype     | 56872  |
+| String.fromCodePoint | 6024   |
+| String.raw           | 5216   |
+| String.name          | 1722   |
