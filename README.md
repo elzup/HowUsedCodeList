@@ -6,6 +6,8 @@ https://docs.github.com/en/rest/search?apiVersion=2022-11-28#search-code
 
 ## JavaScript
 
+query `{code} (language:JavaScript OR language: TypeScript)`
+
 ### Math fields
 
 dumped at 2023/5/22
